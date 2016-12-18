@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58DA57F0236AB7A3047F4769 /* Pods_UploadImageSreyoun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB24490711076B77D8FEBFD /* Pods_UploadImageSreyoun.framework */; };
+		A71E9F621E03ED2C008AEFF3 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71E9F611E03ED2C008AEFF3 /* Pagination.swift */; };
+		A73704D01E0272A300A910FF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73704CF1E0272A300A910FF /* Category.swift */; };
+		A73704D21E0272BB00A910FF /* UplaodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73704D11E0272BB00A910FF /* UplaodImage.swift */; };
+		A73704D51E02806500A910FF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73704D41E02806500A910FF /* API.swift */; };
+		A73704D71E02873900A910FF /* ArticleViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73704D61E02873900A910FF /* ArticleViewDelegate.swift */; };
+		A73704D91E02904600A910FF /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73704D81E02904600A910FF /* ArticleTableViewCell.swift */; };
 		A73F34291DFFE91900C3F51B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F34281DFFE91900C3F51B /* AppDelegate.swift */; };
-		A73F342B1DFFE91900C3F51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F342A1DFFE91900C3F51B /* ViewController.swift */; };
 		A73F342E1DFFE91900C3F51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73F342C1DFFE91900C3F51B /* Main.storyboard */; };
 		A73F34301DFFE91900C3F51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73F342F1DFFE91900C3F51B /* Assets.xcassets */; };
 		A73F34331DFFE91900C3F51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73F34311DFFE91900C3F51B /* LaunchScreen.storyboard */; };
+		A7D4242C1E068AC2006A67B4 /* UpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4242B1E068AC2006A67B4 /* UpdateModel.swift */; };
+		A7D4242E1E068B2F006A67B4 /* UpdatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4242D1E068B2F006A67B4 /* UpdatePresenter.swift */; };
+		A7D424301E068B52006A67B4 /* UpdatePresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4242F1E068B52006A67B4 /* UpdatePresenterInterface.swift */; };
+		A7D424321E068B83006A67B4 /* UpdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D424311E068B83006A67B4 /* UpdateTableViewController.swift */; };
+		A7D424341E068B98006A67B4 /* UpdateTableViewControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D424331E068B98006A67B4 /* UpdateTableViewControllerInterface.swift */; };
+		A7F84E831E029E1B0027C2B8 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F84E821E029E1B0027C2B8 /* AddTableViewController.swift */; };
+		A7FC1DD31E01034100821A6D /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC1DD21E01034100821A6D /* ArticleTableViewController.swift */; };
+		A7FC1DD71E01037700821A6D /* ArticlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC1DD61E01037700821A6D /* ArticlePresenter.swift */; };
+		A7FC1DD91E01039A00821A6D /* ArticlePresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC1DD81E01039A00821A6D /* ArticlePresenterInterface.swift */; };
+		A7FC1DE41E012D9900821A6D /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC1DE31E012D9900821A6D /* ArticleService.swift */; };
+		A7FC1DEA1E014DB800821A6D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC1DE91E014DB800821A6D /* Article.swift */; };
+		B09730B81E06531200936FC6 /* DisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730B71E06531200936FC6 /* DisplayTableViewCell.swift */; };
+		B09730BA1E0658D300936FC6 /* DisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730B91E0658D300936FC6 /* DisplayModel.swift */; };
+		B09730BC1E065A2B00936FC6 /* DisplayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730BB1E065A2B00936FC6 /* DisplayTableViewController.swift */; };
+		B09730BE1E065B1D00936FC6 /* DisplayTableViewControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730BD1E065B1D00936FC6 /* DisplayTableViewControllerInterface.swift */; };
+		B09730C01E065BD700936FC6 /* DisplayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730BF1E065BD700936FC6 /* DisplayPresenter.swift */; };
+		B09730C21E065BFF00936FC6 /* DispayPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730C11E065BFF00936FC6 /* DispayPresenterInterface.swift */; };
+		B09730C41E065E7F00936FC6 /* AddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730C31E065E7F00936FC6 /* AddModel.swift */; };
+		B09730C61E065F2F00936FC6 /* AddPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730C51E065F2F00936FC6 /* AddPresenterInterface.swift */; };
+		B09730C81E0661E300936FC6 /* AddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730C71E0661E300936FC6 /* AddPresenter.swift */; };
+		B09730CA1E06626D00936FC6 /* AddTableViewControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09730C91E06626D00936FC6 /* AddTableViewControllerInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67D6FCC4EA88A26A73004293 /* Pods-UploadImageSreyoun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImageSreyoun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImageSreyoun/Pods-UploadImageSreyoun.debug.xcconfig"; sourceTree = "<group>"; };
+		9EB24490711076B77D8FEBFD /* Pods_UploadImageSreyoun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UploadImageSreyoun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71E9F611E03ED2C008AEFF3 /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pagination.swift; path = "Data Model/Pagination.swift"; sourceTree = "<group>"; };
+		A73704CF1E0272A300A910FF /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A73704D11E0272BB00A910FF /* UplaodImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UplaodImage.swift; sourceTree = "<group>"; };
+		A73704D41E02806500A910FF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = "Data Model/API.swift"; sourceTree = "<group>"; };
+		A73704D61E02873900A910FF /* ArticleViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleViewDelegate.swift; path = View/ArticleViewDelegate.swift; sourceTree = "<group>"; };
+		A73704D81E02904600A910FF /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleTableViewCell.swift; path = View/ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		A73F34251DFFE91900C3F51B /* UploadImageSreyoun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadImageSreyoun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73F34281DFFE91900C3F51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A73F342A1DFFE91900C3F51B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A73F342D1DFFE91900C3F51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A73F342F1DFFE91900C3F51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73F34321DFFE91900C3F51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73F34341DFFE91900C3F51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D4242B1E068AC2006A67B4 /* UpdateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateModel.swift; path = "Data Model/UpdateModel.swift"; sourceTree = "<group>"; };
+		A7D4242D1E068B2F006A67B4 /* UpdatePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdatePresenter.swift; path = Presenter/UpdatePresenter.swift; sourceTree = "<group>"; };
+		A7D4242F1E068B52006A67B4 /* UpdatePresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdatePresenterInterface.swift; path = Presenter/UpdatePresenterInterface.swift; sourceTree = "<group>"; };
+		A7D424311E068B83006A67B4 /* UpdateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTableViewController.swift; sourceTree = "<group>"; };
+		A7D424331E068B98006A67B4 /* UpdateTableViewControllerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTableViewControllerInterface.swift; sourceTree = "<group>"; };
+		A7F84E821E029E1B0027C2B8 /* AddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTableViewController.swift; path = View/AddTableViewController.swift; sourceTree = "<group>"; };
+		A7FC1DD21E01034100821A6D /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
+		A7FC1DD61E01037700821A6D /* ArticlePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlePresenter.swift; sourceTree = "<group>"; };
+		A7FC1DD81E01039A00821A6D /* ArticlePresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlePresenterInterface.swift; sourceTree = "<group>"; };
+		A7FC1DE31E012D9900821A6D /* ArticleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		A7FC1DE91E014DB800821A6D /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		AD7694FF5191E5A2007B8AD6 /* Pods-UploadImageSreyoun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImageSreyoun.release.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImageSreyoun/Pods-UploadImageSreyoun.release.xcconfig"; sourceTree = "<group>"; };
+		B09730B71E06531200936FC6 /* DisplayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayTableViewCell.swift; path = View/DisplayTableViewCell.swift; sourceTree = "<group>"; };
+		B09730B91E0658D300936FC6 /* DisplayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayModel.swift; path = "Data Model/DisplayModel.swift"; sourceTree = "<group>"; };
+		B09730BB1E065A2B00936FC6 /* DisplayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayTableViewController.swift; path = View/DisplayTableViewController.swift; sourceTree = "<group>"; };
+		B09730BD1E065B1D00936FC6 /* DisplayTableViewControllerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayTableViewControllerInterface.swift; path = View/DisplayTableViewControllerInterface.swift; sourceTree = "<group>"; };
+		B09730BF1E065BD700936FC6 /* DisplayPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayPresenter.swift; path = Presenter/DisplayPresenter.swift; sourceTree = "<group>"; };
+		B09730C11E065BFF00936FC6 /* DispayPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DispayPresenterInterface.swift; path = Presenter/DispayPresenterInterface.swift; sourceTree = "<group>"; };
+		B09730C31E065E7F00936FC6 /* AddModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddModel.swift; path = "Data Model/AddModel.swift"; sourceTree = "<group>"; };
+		B09730C51E065F2F00936FC6 /* AddPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPresenterInterface.swift; path = Presenter/AddPresenterInterface.swift; sourceTree = "<group>"; };
+		B09730C71E0661E300936FC6 /* AddPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPresenter.swift; path = Presenter/AddPresenter.swift; sourceTree = "<group>"; };
+		B09730C91E06626D00936FC6 /* AddTableViewControllerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTableViewControllerInterface.swift; path = View/AddTableViewControllerInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +85,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DA57F0236AB7A3047F4769 /* Pods_UploadImageSreyoun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F16BF2218DAB1C7AB291AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D6FCC4EA88A26A73004293 /* Pods-UploadImageSreyoun.debug.xcconfig */,
+				AD7694FF5191E5A2007B8AD6 /* Pods-UploadImageSreyoun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A73704D31E027ED200A910FF /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				A73704D11E0272BB00A910FF /* UplaodImage.swift */,
+				A73704CF1E0272A300A910FF /* Category.swift */,
+				A7FC1DE91E014DB800821A6D /* Article.swift */,
+				A73704D41E02806500A910FF /* API.swift */,
+				A71E9F611E03ED2C008AEFF3 /* Pagination.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
 		A73F341C1DFFE91900C3F51B = {
 			isa = PBXGroup;
 			children = (
 				A73F34271DFFE91900C3F51B /* UploadImageSreyoun */,
 				A73F34261DFFE91900C3F51B /* Products */,
+				0F16BF2218DAB1C7AB291AD0 /* Pods */,
+				B2507FDCC1DB45688943BE07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +135,83 @@
 			isa = PBXGroup;
 			children = (
 				A73F34281DFFE91900C3F51B /* AppDelegate.swift */,
-				A73F342A1DFFE91900C3F51B /* ViewController.swift */,
-				A73F342C1DFFE91900C3F51B /* Main.storyboard */,
-				A73F342F1DFFE91900C3F51B /* Assets.xcassets */,
-				A73F34311DFFE91900C3F51B /* LaunchScreen.storyboard */,
-				A73F34341DFFE91900C3F51B /* Info.plist */,
+				A7FC1DCD1E01014E00821A6D /* Storyboard */,
+				A73704D31E027ED200A910FF /* Data Model */,
+				A7FC1DCA1E0100E200821A6D /* Presenter */,
+				A7FC1DC91E0100D900821A6D /* View */,
+				A7FC1DC81E0100CE00821A6D /* Model */,
+				A7FC1DCB1E01011400821A6D /* Resources */,
 			);
 			path = UploadImageSreyoun;
+			sourceTree = "<group>";
+		};
+		A7FC1DC81E0100CE00821A6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B09730C31E065E7F00936FC6 /* AddModel.swift */,
+				A7D4242B1E068AC2006A67B4 /* UpdateModel.swift */,
+				B09730B91E0658D300936FC6 /* DisplayModel.swift */,
+				A7FC1DE31E012D9900821A6D /* ArticleService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7FC1DC91E0100D900821A6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7FC1DD21E01034100821A6D /* ArticleTableViewController.swift */,
+				A7D424331E068B98006A67B4 /* UpdateTableViewControllerInterface.swift */,
+				A7D424311E068B83006A67B4 /* UpdateTableViewController.swift */,
+				B09730C91E06626D00936FC6 /* AddTableViewControllerInterface.swift */,
+				A73704D61E02873900A910FF /* ArticleViewDelegate.swift */,
+				A73704D81E02904600A910FF /* ArticleTableViewCell.swift */,
+				A7F84E821E029E1B0027C2B8 /* AddTableViewController.swift */,
+				B09730BD1E065B1D00936FC6 /* DisplayTableViewControllerInterface.swift */,
+				B09730BB1E065A2B00936FC6 /* DisplayTableViewController.swift */,
+				B09730B71E06531200936FC6 /* DisplayTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A7FC1DCA1E0100E200821A6D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A7FC1DD61E01037700821A6D /* ArticlePresenter.swift */,
+				A7D4242F1E068B52006A67B4 /* UpdatePresenterInterface.swift */,
+				A7D4242D1E068B2F006A67B4 /* UpdatePresenter.swift */,
+				B09730C71E0661E300936FC6 /* AddPresenter.swift */,
+				B09730C51E065F2F00936FC6 /* AddPresenterInterface.swift */,
+				B09730BF1E065BD700936FC6 /* DisplayPresenter.swift */,
+				B09730C11E065BFF00936FC6 /* DispayPresenterInterface.swift */,
+				A7FC1DD81E01039A00821A6D /* ArticlePresenterInterface.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		A7FC1DCB1E01011400821A6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A73F34341DFFE91900C3F51B /* Info.plist */,
+				A73F342F1DFFE91900C3F51B /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7FC1DCD1E01014E00821A6D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A73F342C1DFFE91900C3F51B /* Main.storyboard */,
+				A73F34311DFFE91900C3F51B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		B2507FDCC1DB45688943BE07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EB24490711076B77D8FEBFD /* Pods_UploadImageSreyoun.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A73F34371DFFE91900C3F51B /* Build configuration list for PBXNativeTarget "UploadImageSreyoun" */;
 			buildPhases = (
+				834E42DB9CA087FFF5310FDD /* [CP] Check Pods Manifest.lock */,
 				A73F34211DFFE91900C3F51B /* Sources */,
 				A73F34221DFFE91900C3F51B /* Frameworks */,
 				A73F34231DFFE91900C3F51B /* Resources */,
+				F09A090B991522F3AD5DEA44 /* [CP] Embed Pods Frameworks */,
+				879E7DA1F2D3048D8952A9F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +284,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		834E42DB9CA087FFF5310FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		879E7DA1F2D3048D8952A9F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UploadImageSreyoun/Pods-UploadImageSreyoun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09A090B991522F3AD5DEA44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UploadImageSreyoun/Pods-UploadImageSreyoun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A73F34211DFFE91900C3F51B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73F342B1DFFE91900C3F51B /* ViewController.swift in Sources */,
+				B09730C01E065BD700936FC6 /* DisplayPresenter.swift in Sources */,
+				B09730CA1E06626D00936FC6 /* AddTableViewControllerInterface.swift in Sources */,
+				A7FC1DEA1E014DB800821A6D /* Article.swift in Sources */,
+				A7FC1DD31E01034100821A6D /* ArticleTableViewController.swift in Sources */,
+				B09730C21E065BFF00936FC6 /* DispayPresenterInterface.swift in Sources */,
+				A7D424321E068B83006A67B4 /* UpdateTableViewController.swift in Sources */,
+				B09730BC1E065A2B00936FC6 /* DisplayTableViewController.swift in Sources */,
+				A71E9F621E03ED2C008AEFF3 /* Pagination.swift in Sources */,
+				B09730BA1E0658D300936FC6 /* DisplayModel.swift in Sources */,
+				A7FC1DD71E01037700821A6D /* ArticlePresenter.swift in Sources */,
+				A7D424341E068B98006A67B4 /* UpdateTableViewControllerInterface.swift in Sources */,
+				A7D424301E068B52006A67B4 /* UpdatePresenterInterface.swift in Sources */,
+				A73704D51E02806500A910FF /* API.swift in Sources */,
+				B09730C61E065F2F00936FC6 /* AddPresenterInterface.swift in Sources */,
+				B09730BE1E065B1D00936FC6 /* DisplayTableViewControllerInterface.swift in Sources */,
+				A7FC1DE41E012D9900821A6D /* ArticleService.swift in Sources */,
+				A7D4242E1E068B2F006A67B4 /* UpdatePresenter.swift in Sources */,
+				B09730C41E065E7F00936FC6 /* AddModel.swift in Sources */,
+				A73704D71E02873900A910FF /* ArticleViewDelegate.swift in Sources */,
+				B09730B81E06531200936FC6 /* DisplayTableViewCell.swift in Sources */,
+				A7D4242C1E068AC2006A67B4 /* UpdateModel.swift in Sources */,
+				A73704D91E02904600A910FF /* ArticleTableViewCell.swift in Sources */,
+				A73704D21E0272BB00A910FF /* UplaodImage.swift in Sources */,
 				A73F34291DFFE91900C3F51B /* AppDelegate.swift in Sources */,
+				A7FC1DD91E01039A00821A6D /* ArticlePresenterInterface.swift in Sources */,
+				A7F84E831E029E1B0027C2B8 /* AddTableViewController.swift in Sources */,
+				B09730C81E0661E300936FC6 /* AddPresenter.swift in Sources */,
+				A73704D01E0272A300A910FF /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +485,7 @@
 		};
 		A73F34381DFFE91900C3F51B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D6FCC4EA88A26A73004293 /* Pods-UploadImageSreyoun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UploadImageSreyoun/Info.plist;
@@ -270,6 +498,7 @@
 		};
 		A73F34391DFFE91900C3F51B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7694FF5191E5A2007B8AD6 /* Pods-UploadImageSreyoun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UploadImageSreyoun/Info.plist;
@@ -299,6 +528,7 @@
 				A73F34391DFFE91900C3F51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
